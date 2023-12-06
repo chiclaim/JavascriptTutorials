@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Debugger</title>
+</head>
+
+<body>
+
+    <script>
+        // 在浏览器中调试:
+        // F12 打开 source 面板，打开你要 debug 的 html 或 js 文件，在需要断点的行点击下，然后刷新页面，就会进入断点
+
+        // 在 VSCode 中调试
+        // 调试 js 文件，直接在需要断点的行左侧编辑下，就会出现断点，然后点击右键点击 Run Code，或快捷键 CTRL+ALT+N，前提是安装 Code Runner 插件
+        // js 代码在 html 中：打好断点直接按 F5
+
+        let result = sum(100, 180)
+        console.log(result)
+
+        function sum(a, b) {
+            return a + b
+        }
+    </script>
+</body>
+
+</html>
