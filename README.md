@@ -11,5 +11,6 @@ https://www.cnblogs.com/ttweixiao-IT-program/p/13048275.html
 
 
 ## 教程
-
-https://zh.javascript.info/
+- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+- https://www.w3school.com.cn/
+- https://zh.javascript.info/
