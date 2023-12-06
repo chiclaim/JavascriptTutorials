@@ -6,7 +6,7 @@
 // 字符串 hello 保存到了与该变量相关的内存区域了，后续可以通过 message 这个变量来获取和修改该内存区域的值
 let message = "hello"  // 使用 let 关键字声明
 console.log(message) // 获取值
-message  = "hello world" // 修改值
+message = "hello world" // 修改值
 console.log(message) // 获取值
 
 // 对同一个变量重复声明会报错
