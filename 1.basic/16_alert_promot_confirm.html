@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>alert、prompt 和 confirm</title>
+</head>
+
+<body>
+    <script>
+        // alert 弹出的这个带有信息的小窗口被称为 模态窗。“modal” 意味着用户不能与页面的其他部分（例如点击其他按钮等）进行交互，直到他们处理完窗口。
+        // 在上面示例这种情况下 —— 直到用户点击“确定”按钮。
+        alert("hello world from alert()")
+        
+        // prompt 函数，浏览器会显示一个带有文本消息的模态窗口，还有 input 框和确定/取消按钮。
+        // result = prompt(title, [default]);
+        // prompt /prɑːmpt/（计算机上）提示；
+        let age = prompt('How old are you?', 100);
+        alert("您输入的年龄：" + age)
+
+        // confirm 函数显示一个带有 question 以及确定和取消两个按钮的模态窗口。
+        // result = confirm(question);
+        let isBoss = confirm("Are you the boss?");
+        alert(isBoss); // 如果“确定”按钮被按下，则显示 true
+
+    </script>
+</body>
+
+</html>
